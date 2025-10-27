@@ -1,0 +1,24 @@
+# Netlify Configuration for Apple React Components
+[build]
+  # Set the base directory to where your React app is located
+  base = "my-app"
+  
+  # Build command (runs from the base directory)
+  command = "npm run build"
+  
+  # Publish directory (relative to base directory)
+  # Vite builds to 'dist' folder by default
+  publish = "dist"
+  
+  # Functions directory (if you add serverless functions later)
+  # functions = "functions"
+
+# Optional: Environment variables
+[build.environment]
+  NODE_VERSION = "18"
+
+# Optional: Redirect rules for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
