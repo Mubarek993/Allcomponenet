@@ -23,7 +23,7 @@ import Iphone11pro from '../../iphon11pro/iphone11pro.jsx';
 import Iphone11 from '../../aiphoneandget the/iphone11.jsx';
 import AppleTv from '../../ppleTV/AppleTv.jsx';
   import Applecared from '../../Applecared/Applecared.jsx';
-  import Footer from '../.././../all comopent/Footer/Footer.jsx'
+  import Footer from '../../Footer/Footer.jsx';
 import AppleYOUtube from '../../AppleYOUTube/AppleYOUtube.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
