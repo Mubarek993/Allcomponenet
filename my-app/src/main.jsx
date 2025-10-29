@@ -15,7 +15,7 @@ import "../src/App.css";
 
 
 
-import Header from '../../../allcomopent/Header/Header.jsx'
+import Header from '../../Header/Header.jsx'
 import Alart from '../../Alart/Alart.jsx';
 import Ipadpro from '../../Ipdpro/Ipadpro.jsx';
 import MAkBookair from '../../MAcBook Air/MAkBookair.jsx';
