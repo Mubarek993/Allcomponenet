@@ -1,8 +1,11 @@
 import React from 'react'
-import AppleTvLogo from "../my-app/src/assets/images/icons/apple-tv-Logo.png";
-import Banker from "../my-app/src/assets/images/home/banker.png";
-import series from '../my-app/src/assets/images/icons/watch-series5-logo.png'
+// import AppleTvLogo from "";
+// import Banker from "../my-app/src/assets/images/home/banker.png";
+// import series from '../my-app/src/assets/images/icons/watch-series5-logo.png'
 
+import AppleTvLogo from "../my-app/src/assets/images/icons/apple-tv-logo.png";
+import Banker from "../my-app/src/assets/images/home/banker.png";
+import series from "../my-app/src/assets/images/icons/watch-series5-logo.png";
 
 const AppleTv = () => {
   return (
